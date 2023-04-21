@@ -15,6 +15,7 @@ dataLayer.push({
         "items": [
             {
                 "affiliation": "<affiliation>",
+                "applications_close": "<applications_close>",
                 "course_certificate_price": "<course_certificate_price>",
                 "course_difficulty": "<course_difficulty>",
                 "course_language": "<course_language>",
@@ -39,10 +40,7 @@ dataLayer.push({
                 "promotion_name": "<promotion_name>",
                 "quantity": <quantity>
             }
-        ],
-        "items[n]": {
-            "applications_close": "<applications_close>"
-        }
+        ]
     }
 });
 ```
