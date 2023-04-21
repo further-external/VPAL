@@ -13,6 +13,7 @@ dataLayer.push({
         "currency": "<currency>",
         "items": [
             {
+                "applications_close": "<applications_close>",
                 "course_certificate_price": "<course_certificate_price>",
                 "course_difficulty": "<course_difficulty>",
                 "course_language": "<course_language>",
@@ -36,9 +37,6 @@ dataLayer.push({
                 "quantity": <quantity>
             }
         ],
-        "items[n]": {
-            "applications_close": "<applications_close>"
-        },
         "value": <value>
     }
 });
