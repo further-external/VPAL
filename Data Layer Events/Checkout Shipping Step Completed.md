@@ -13,6 +13,8 @@ dataLayer.push({
         "currency": "<currency>",
         "items": [
             {
+                "applications_close": "<applications_close>",
+                "cohort": "<cohort>",
                 "course_certificate_price": "<course_certificate_price>",
                 "course_difficulty": "<course_difficulty>",
                 "course_language": "<course_language>",
@@ -35,10 +37,6 @@ dataLayer.push({
                 "quantity": <quantity>
             }
         ],
-        "items[n]": {
-            "applications_close": "<applications_close>",
-            "cohort": "<cohort>"
-        },
         "value": <value>
     }
 });
@@ -48,9 +46,9 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ecommerce.items[n].cohort|string|Cohort \(or wave\) a user selects for a course.|July 19, 2023|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].applications_close|string|Date on which course Applications Close|Jul 10, 2023|||||||
+|ecommerce.items[n].cohort|string|Cohort \(or wave\) a user selects for a course.|July 19, 2023|||||||
 |ecommerce.items[n].course_certificate_price|string|Value for Certificate Price - ex. 1600|1600, 950, 0, 25.00|||||||
 |ecommerce.items[n].course_difficulty|string|Value for Course Difficulty E-commerce. ex 'Introductory'|introductory, intermediate|||||||
 |ecommerce.items[n].course_language|string|Value for Course Language. ex 'English'|english|||||||
