@@ -40,6 +40,9 @@ dataLayer.push({
                 "quantity": <quantity>
             }
         ],
+        "course_name": "<course_name>",
+        "program_dates": "<program_dates>",
+        "user_cohort": "<user_cohort>",
         "payment_method": "<payment_method>",
         "tax": <tax>,
         "transaction_id": "<transaction_id>",
@@ -127,7 +130,7 @@ dataLayer.push({
 <p><span style="font-weight: 400;">item_category</span></p>
 </td>
 <td>
-<p><strong>Highest categorization for courses - Series?</strong></p>
+<p><strong>Highest categorization for courses - </strong></p>
 </td>
 </tr>
 <tr>
@@ -135,7 +138,7 @@ dataLayer.push({
 <p><span style="font-weight: 400;">item_category2</span></p>
 </td>
 <td>
-<p><strong>Capture if course offered through edX vs. VPAL platform&nbsp;</strong></p>
+<p><strong>Secondonary grouping for courses </strong></p>
 </td>
 </tr>
 <tr>
