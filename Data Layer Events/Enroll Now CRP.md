@@ -19,3 +19,7 @@ User clicks  CTA link to enroll on CRP flow. We are requesting the data attribut
 | --- | --- | --- | --- | --- |
 |link_text|string|required|The full text of the link.|`enroll now`|
 |link_url|string|required|The full URL of the link.|https://www.example.com/form|
+
+
+## Tag Set up Notes (for Further)
+If the link can be picked up by GTM we will use the existing lookup table "Enroll or Apply" and add another option for the new subdomain to identify an enroll_now link. We will need to add this subdomain to the existing apply now link (perhaps renaming to apply or enroll now). If the link cannot be picked up, we will set up a new trigger and variables using these values.
