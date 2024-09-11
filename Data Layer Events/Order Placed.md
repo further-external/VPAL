@@ -20,6 +20,7 @@ dataLayer.push({
                 "item_brand": "<item_brand>",
                 "item_category": "<item_category>",
                 "price": <price>,
+                 "discount": <discount>,
                 "quantity": <quantity>,
                 "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
@@ -46,11 +47,12 @@ dataLayer.push({
 |ecommerce.items[n].item_category|string|Item Category \(context-specific\)|Include course categories similar to grouping on Harvard Online, if available|||||||
 |ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|Clotho_id for course|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|Same value as Course Name|||||||
-|ecommerce.items[n].price|number|The monetary price of the item, in units of the specified currency parameter.|9.99|||||||
+|ecommerce.items[n].price|number|The monetary price of the item, in units of the specified currency parameter. This is with discounte applied|9.99|||||||
+|ecommerce.items[n].discount|number|The monetary value of discount in units of the specified currency parameter.|2.00|||||||
 |ecommerce.items[n].program_dates|string|Value for Program Dates. ex. May 11, 2022 – May 10, 2023|May 11, 2022 – May 10, 2023|||||||
 |ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
 |ecommerce.payment_method|string|Captures the payment methods used for a transaction \(i.e. credit card, Visa, MasterCard, Amex, Paypal, purchase order, etc\).|Credit Card, PayPal, Mastercard, Visa, Amex, Discover|||||||
 |ecommerce.tax|number|Tax cost associated with a transaction.|1.11|||||||
 |ecommerce.transaction_id|string|The unique identifier of a transaction.|T\_12345, 19283j2nm9jdjs|^[a-zA-Z0-9]{6,20}$|6|20||||
-|ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
+|ecommerce.value|number|The monetary value of the event. quantity x sale price|7.77, 239.55, 659|||||||
 
