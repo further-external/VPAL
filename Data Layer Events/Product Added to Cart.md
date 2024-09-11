@@ -45,7 +45,7 @@ dataLayer.push({
 |ecommerce.items[n].price|number|The monetary price of the item, in units of the specified currency parameter.|9.99|||||||
 |ecommerce.items[n].program_dates|string|Value for Program Dates. ex. May 11, 2022 – May 10, 2023|May 11, 2022 – May 10, 2023|||||||
 |ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
-|ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
+|ecommerce.value|number|The monetary value of the event which will be equal to course price.|7.77, 239.55, 659|||||||
 
 
 
