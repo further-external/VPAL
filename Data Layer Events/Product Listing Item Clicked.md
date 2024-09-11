@@ -1,5 +1,7 @@
 # Product Listing Item Clicked
 
+CRP status: N/A for CRP flow
+
 ### 
 
 ## Javascript Code
