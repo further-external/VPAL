@@ -7,8 +7,7 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "course_application_complete",
-  "detailed_event": "Course Application Complete",
+  "event": "enroll_now_start",
     "event_data": {
         "course_application_step": "<course_application_step>",
         "name": "<name>"
