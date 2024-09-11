@@ -23,7 +23,6 @@ dataLayer.push({
                 "quantity": <quantity>,
                 "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
-                "course_platform": "<Harvard Online>",
 
             }
         ],
@@ -38,7 +37,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].course_name|string|Value for Course Name. ex 'Financial Analysis and Valuation for Lawyers'|Financial Analysis and Valuation for Lawyers, Data Privacy and Technology|||||||
-|ecommerce.items[n].course_platform|string|Value for Course Platform. ex. edX'|Harvard oOline|||||||
 |ecommerce.items[n].course_price|string|Value for Course Price. ex. '1600'|1600, 945, 125.00|||||||
 |ecommerce.items[n].item_brand|string|Item brand|Harvard Online|||||||
 |ecommerce.items[n].item_category|string|Item Category \(context-specific\)|Include course categories similar to grouping on Harvard Online, if available|||||||
