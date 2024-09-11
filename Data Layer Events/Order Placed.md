@@ -1,5 +1,7 @@
 # Order Placed
 
+CRP flow: Fire this on the order confirmation page when the user returns from the payment platform.
+
 ### 
 
 ## Javascript Code
