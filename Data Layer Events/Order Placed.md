@@ -40,9 +40,6 @@ dataLayer.push({
                 "quantity": <quantity>
             }
         ],
-        "course_name": "<course_name>",
-        "program_dates": "<program_dates>",
-        "user_cohort": "<user_cohort>",
         "payment_method": "<payment_method>",
         "tax": <tax>,
         "transaction_id": "<transaction_id>",
