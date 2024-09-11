@@ -1,8 +1,13 @@
 # Checkout Started
 
-This event has been updated for the CRP - (update if we need to data attributes to capture with offsite link click)
+This event has been updated for the CRP - (pending testing, we could just go with the HTML attribute)
+
 
 ### 
+
+## HTML Attribute
+
+
 
 ## Javascript Code
 ```js
