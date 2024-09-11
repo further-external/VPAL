@@ -15,30 +15,14 @@ dataLayer.push({
         "currency": "<currency>",
         "items": [
             {
-                "applications_close": "<applications_close>",
-                "cohort": "<cohort>",
-                "course_certificate_price": "<course_certificate_price>",
-                "course_difficulty": "<course_difficulty>",
-                "course_language": "<course_language>",
-                "course_length": "<course_length>",
-                "course_modality": "<course_modality>",
-                "course_name": "<course_name>",
-                "course_pace": "<course_pace>",
-                "course_platform": "<course_platform>",
-                "course_price": "<course_price>",
-                "course_school": "<course_school>",
-                "course_transcript_language": "<course_transcript_language>",
-                "currency": "<currency>",
+                "item_name": "<item_name>",
+                "item_id": "<item_id>",
                 "item_brand": "<item_brand>",
                 "item_category": "<item_category>",
-                "item_category2": "<item_category2>",
-                "item_id": "<item_id>",
-                "item_list_id": "<item_list_id>",
-                "item_list_name": "<item_list_name>",
-                "item_name": "<item_name>",
                 "price": <price>,
+                "quantity": <quantity>,
+                "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
-                "quantity": <quantity>
             }
         ],
         "value": <value>
@@ -51,8 +35,6 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
-|ecommerce.items[n].applications_close|string|Date on which course Applications Close|Jul 10, 2023|||||||
-|ecommerce.items[n].cohort|string|Cohort \(or wave\) a user selects for a course.|July 19, 2023|||||||
 |ecommerce.items[n].course_certificate_price|string|Value for Certificate Price - ex. 1600|1600, 950, 0, 25.00|||||||
 |ecommerce.items[n].course_difficulty|string|Value for Course Difficulty E-commerce. ex 'Introductory'|introductory, intermediate|||||||
 |ecommerce.items[n].course_language|string|Value for Course Language. ex 'English'|english|||||||
