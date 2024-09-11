@@ -1,5 +1,7 @@
 # Enroll Now Click
 
+CRP Status = Variable update needed to fire this new event name for clicking through to CRP from harvard online.
+
 User clicks  CTA link to enroll on CRP flow. We are requesting the data attributes below for these links. We would be able to pick up the link_url and link_tex if it is a standard <a> tag but in the case of a button where it can't be picked up we are also requesting those value.
 
 
