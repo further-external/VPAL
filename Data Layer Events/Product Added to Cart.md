@@ -23,6 +23,8 @@ dataLayer.push({
                 "quantity": <quantity>,
                 "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
+                "course_platform": "<Harvard Online>",
+
             }
         ],
         "value": <value>
