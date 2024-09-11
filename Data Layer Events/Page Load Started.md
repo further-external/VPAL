@@ -6,9 +6,9 @@ CRP updates - include the following page_data variables:
         "course_program_dates": "<course_program_dates>",
         "page_location": "<page_location>",
         "page_title": "<page_title>",
-        "site_section": "<site_section>",
-        "site_section2": "<site_section2>",
-        "type": "<type>"
+        "site_section": "<site_section>", // expected value 'CRP'
+        "site_section2": "<site_section2>", // expected value 'CRP'
+        "type": "<type>" // expected value 'CRP'
 
 ### 
 
