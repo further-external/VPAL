@@ -1,5 +1,7 @@
 # Course Application Complete
 
+CRP Notes: Not part of CRP. Delete after all courses have migrated to CRP. Also note myhbx implemented this manually and never added this DL event.
+
 ### 
 
 ## Javascript Code
