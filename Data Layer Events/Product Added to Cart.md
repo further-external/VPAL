@@ -1,5 +1,7 @@
 # Product Added to Cart
 
+CRP Relevance - the code below has been updated for the CRP flow.
+
 ### 
 
 ## Javascript Code
@@ -148,3 +150,7 @@ dataLayer.push({
 </tr>
 </tbody>
 </table>
+
+
+## Tag Updates (Further)
+Update add_to_cart event tag to pass course name and program dates at the event scope - these can be mapped for the page-level variables
