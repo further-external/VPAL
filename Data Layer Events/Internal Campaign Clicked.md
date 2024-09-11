@@ -1,5 +1,7 @@
 # Internal Campaign Clicked
 
+CRP Notes: Not part of CRP.
+
 ### 
 
 ## Javascript Code

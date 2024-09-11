@@ -1,5 +1,7 @@
 # CTA Link Clicked
 
+Further note 9/11/24 - propose turning this tag off for now - we capture the course links with the Link click event (rather than this DL event) - this event name is also impossible to distinguish from offsite link clicks (which are turned on in the Google Tag) and would be inflated for any offsite CTA click.
+
 ### 
 
 ## Javascript Code

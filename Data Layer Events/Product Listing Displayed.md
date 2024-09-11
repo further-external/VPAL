@@ -1,5 +1,7 @@
 # Product Listing Displayed
 
+CRP status: N/A for CRP flow
+
 ### 
 
 ## Javascript Code

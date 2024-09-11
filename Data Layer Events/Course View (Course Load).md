@@ -1,5 +1,7 @@
 # Course View (Course Load)
 
+CRP Notes: Not part of CRP.
+
 ### 
 
 ## Javascript Code

@@ -1,5 +1,8 @@
 # Product Viewed
 
+
+CRP status: N/A for CRP flow
+
 ### 
 
 ## Javascript Code
