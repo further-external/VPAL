@@ -7,6 +7,9 @@ This event has been updated for the CRP - (pending testing, we could just go wit
 
 ## HTML Attribute
 
+Add the following data attribute to the checkout link that takes the user to the offsite payment platform.
+
+data-gtm-event="nav_click"
 
 
 ## Javascript Code
