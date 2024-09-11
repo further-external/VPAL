@@ -13,32 +13,18 @@ dataLayer.push({
         "coupon": "<coupon>",
         "currency": "<currency>",
         "items": [
-            {
-                "applications_close": "<applications_close>",
-                "cohort": "<cohort>",
-                "course_certificate_price": "<course_certificate_price>",
-                "course_difficulty": "<course_difficulty>",
-                "course_language": "<course_language>",
-                "course_length": "<course_length>",
-                "course_modality": "<course_modality>",
-                "course_name": "<course_name>",
-                "course_pace": "<course_pace>",
-                "course_platform": "<course_platform>",
-                "course_price": "<course_price>",
-                "course_school": "<course_school>",
-                "course_transcript_language": "<course_transcript_language>",
-                "currency": "<currency>",
+
+           {
+                "item_name": "<item_name>",
+                "item_id": "<item_id>",
                 "item_brand": "<item_brand>",
                 "item_category": "<item_category>",
-                "item_category2": "<item_category2>",
-                "item_id": "<item_id>",
-                "item_list_id": "<item_list_id>",
-                "item_list_name": "<item_list_name>",
-                "item_name": "<item_name>",
                 "price": <price>,
+                "quantity": <quantity>,
+                "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
-                "quantity": <quantity>
             }
+
         ],
         "payment_method": "<payment_method>",
         "tax": <tax>,
