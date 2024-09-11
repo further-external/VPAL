@@ -1,6 +1,6 @@
 # Product Added to Cart
 
-CRP Relevance - the code below has been updated for the CRP flow.
+CRP Relevance - the code below has been updated for the CRP flow. This event should fire when the enrollment page loads - fire the event to the dataLayer AFTER the page_load_started event.
 
 ### 
 
