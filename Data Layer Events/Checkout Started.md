@@ -7,7 +7,7 @@ This event has been updated for the CRP - (pending testing, we could just go wit
 
 ## HTML Attribute
 
-Add the following data attribute to the checkout link that takes the user to the offsite payment platform.
+Add the following data attribute to the checkout link that takes the user to the offsite payment platform. If we rely on the data attribute we are relying on capturing the ecommerce data from the prior add_to_cart event that will be firing on the page.
 
 data-gtm-event="nav_click"
 
