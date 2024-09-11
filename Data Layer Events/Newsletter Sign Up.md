@@ -1,5 +1,7 @@
 # Newsletter Sign Up
 
+CRP Notes: Not part of CRP.
+
 ### 
 
 ## Javascript Code
