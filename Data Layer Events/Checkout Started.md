@@ -1,5 +1,7 @@
 # Checkout Started
 
+This event has been updated for the CRP - (update if we need to data attributes to capture with offsite link click)
+
 ### 
 
 ## Javascript Code
