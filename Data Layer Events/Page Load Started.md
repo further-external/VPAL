@@ -1,5 +1,15 @@
 # Page Load Started
 
+CRP updates - include the following page_data variables:
+
+        "course_name": "<course_name>",
+        "course_program_dates": "<course_program_dates>",
+        "page_location": "<page_location>",
+        "page_title": "<page_title>",
+        "site_section": "<site_section>",
+        "site_section2": "<site_section2>",
+        "type": "<type>"
+
 ### 
 
 ## Javascript Code
