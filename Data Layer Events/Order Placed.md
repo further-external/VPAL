@@ -40,6 +40,9 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
+
+
+
 |ecommerce.items[n].applications_close|string|Date on which course Applications Close|Jul 10, 2023|||||||
 |ecommerce.items[n].cohort|string|Cohort \(or wave\) a user selects for a course.|July 19, 2023|||||||
 |ecommerce.items[n].course_certificate_price|string|Value for Certificate Price - ex. 1600|1600, 950, 0, 25.00|||||||
@@ -64,6 +67,9 @@ dataLayer.push({
 |ecommerce.items[n].price|number|The monetary price of the item, in units of the specified currency parameter.|9.99|||||||
 |ecommerce.items[n].program_dates|string|Value for Program Dates. ex. May 11, 2022 – May 10, 2023|May 11, 2022 – May 10, 2023|||||||
 |ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
+
+
+
 |ecommerce.payment_method|string|Captures the payment methods used for a transaction \(i.e. credit card, Visa, MasterCard, Amex, Paypal, purchase order, etc\).|Credit Card, PayPal, Mastercard, Visa, Amex, Discover|||||||
 |ecommerce.tax|number|Tax cost associated with a transaction.|1.11|||||||
 |ecommerce.transaction_id|string|The unique identifier of a transaction.|T\_12345, 19283j2nm9jdjs|^[a-zA-Z0-9]{6,20}$|6|20||||
