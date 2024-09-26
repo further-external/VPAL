@@ -20,33 +20,13 @@ dataLayer.push({
   "event": "page_load_started",
   "detailed_event": "Page Load Started",
     "page_data": {
-        "applications_close": "<applications_close>",
-        "article_author": "<article_author>",
-        "article_name": "<article_name>",
-        "article_photo_content": <article_photo_content>,
-        "article_video_content": <article_video_content>,
-        "breadcrumb": "<breadcrumb>",
-        "country": "<country>",
-        "course_certificate_price": "<course_certificate_price>",
-        "course_difficulty": "<course_difficulty>",
-        "course_language": "<course_language>",
-        "course_length": "<course_length>",
-        "course_modality": "<course_modality>",
         "course_name": "<course_name>",
-        "course_pace": "<course_pace>",
-        "course_platform": "<course_platform>",
-        "course_price": "<course_price>",
         "course_program_dates": "<course_program_dates>",
-        "course_promo_name": "<course_promo_name>",
-        "course_school": "<course_school>",
-        "course_transcript_language": "<course_transcript_language>",
-        "language": "<language>",
         "page_location": "<page_location>",
         "page_title": "<page_title>",
-        "pages_viewed_num_visit": "<pages_viewed_num_visit>",
-        "site_section": "<site_section>",
-        "site_section2": "<site_section2>",
-        "type": "<type>"
+        "site_section": "<site_section>", // expected value 'CRP'
+        "site_section2": "<site_section2>", // expected value 'CRP'
+        "type": "<type>" // expected value 'CRP'
     },
     "user_data": {
         "user_id": "<user_id>"
