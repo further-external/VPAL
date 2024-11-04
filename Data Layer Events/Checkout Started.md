@@ -1,6 +1,6 @@
 # Checkout Started
 
-This event should fire when the user successfully clicks on the 'proceed to checkout' button 
+This event should fire when the user successfully clicks on the 'proceed to checkout' button - the values in the ecommerce dataLayer should be the same values passed with the add_to_cart event that fires on the page
 
 
 
