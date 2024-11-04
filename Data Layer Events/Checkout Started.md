@@ -11,7 +11,7 @@ This event should fire when the user successfully clicks on the 'proceed to chec
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
-  "event": "checkout_started",
+  "event": "begin_checkout",
     "ecommerce": {
         "currency": "<currency>",
         "items": [
