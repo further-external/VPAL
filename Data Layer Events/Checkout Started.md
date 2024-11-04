@@ -12,7 +12,6 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   "event": "checkout_started",
-  "detailed_event": "Product Added to Cart",
     "ecommerce": {
         "currency": "<currency>",
         "items": [
