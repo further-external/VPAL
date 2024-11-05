@@ -54,7 +54,7 @@ dataLayer.push({
 
 ## Tag Updates Needed
 
-Need to bring in checkout started full tag
+N/A
 
 
 
