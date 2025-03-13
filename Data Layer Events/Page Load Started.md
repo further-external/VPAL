@@ -29,7 +29,8 @@ dataLayer.push({
         "type": "<type>" // expected value 'CRP'
     },
     "user_data": {
-        "user_id": "<user_id>"
+        "user_id": "<user_id>",
+        "user_type": "<user_type>"
     }
 });
 ```
@@ -66,6 +67,8 @@ dataLayer.push({
 |page_data.site_section2|string|Captures the sub-section of the site where the page being viewed is located|series &gt; harvard-on-digital, series &gt; leadership, course &gt; data-privacy-technology, course &gt; digital-health|||||||
 |page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|user_data.user_type|string|The users current login status, HarvardKey People = Har alumni/staff, Harvard Guest Account = Authenticated User, logged in, Unauthenticated User = Not logged in | HarvardKey, Harvard Guest Account, Unauthenticated User|||||||
+
 
 ## Attached Notes
 

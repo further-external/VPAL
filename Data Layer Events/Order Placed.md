@@ -12,17 +12,16 @@ dataLayer.push({
   "event": "purchase",
   "detailed_event": "Order Placed",
     "ecommerce": {
-        "coupon": "<coupon>",
+        "coupon": "<coupon>", // REQUIRED | string - delimited (~) | ex. couponName1~couponName2~couponName3
         "currency": "<currency>",
         "items": [
-
            {
                 "item_name": "<item_name>",
                 "item_id": "<item_id>",
                 "item_brand": "<item_brand>",
                 "item_category": "<item_category>",
                 "price": <price>,
-                 "discount": <discount>,
+                "discount": <discount>,
                 "quantity": <quantity>,
                 "course_name": "<course_name>",
                 "program_dates": "<program_dates>",
@@ -41,7 +40,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
+|ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun, couponName1~couponName2~couponName3|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].course_name|string|Value for Course Name. ex 'Financial Analysis and Valuation for Lawyers'|Financial Analysis and Valuation for Lawyers, Data Privacy and Technology|||||||
 |ecommerce.items[n].course_price|string|Value for Course Price. ex. '1600'|1600, 945, 125.00|||||||
