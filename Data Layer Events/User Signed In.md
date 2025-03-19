@@ -14,6 +14,7 @@ dataLayer.push({
     },
     "user_data": {
         "user_id": "<user_id>",
+        "user_type": "<user_type>"
     }
 });
 ```
@@ -24,6 +25,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.method|string|Records the system the user utilized to log in.|HBSO, HarvardKey, Native|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|user_data.user_type|string|The users current login status, HarvardKey People = Har alumni/staff, Harvard Guest Account = Authenticated User, logged in, Unauthenticated User = Not logged in | HarvardKey, Harvard Guest Account, Unauthenticated User|||||||
 
 ## Attached Notes
 
