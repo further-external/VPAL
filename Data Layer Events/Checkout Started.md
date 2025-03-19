@@ -31,6 +31,10 @@ dataLayer.push({
         ],
         "value": <value>,
         "tax": <tax>
+    },
+    "user_data": {
+        "user_id": "<user_id>",
+        "user_type": "<user_type>"
     }
 });
 ```
@@ -54,6 +58,8 @@ dataLayer.push({
 |ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
 |ecommerce.value|number|The monetary value of the event which will be equal to course price.|7.77, 239.55, 659|||||||
 |ecommerce.tax|number|Tax cost associated with a transaction.|1.11|||||||
+|user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated. For CRP this will be the hashedEmail value when avaliable, if not avaliable pass an empty string value ("")|ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad|||||||
+|user_data.user_type|string|The users current login status, HarvardKey People = Har alumni/staff, Harvard Guest Account = Authenticated User, logged in, Unauthenticated User = Not logged in | HarvardKey, Harvard Guest Account, Unauthenticated User|||||||
 
 
 

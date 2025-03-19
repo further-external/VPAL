@@ -66,7 +66,7 @@ dataLayer.push({
 |page_data.site_section|string|The section of the site that the current page resides in. site\_section2 through site\_section5can also be used if the site has many sections.|series, blog, news, make-a-course|||||||
 |page_data.site_section2|string|Captures the sub-section of the site where the page being viewed is located|series &gt; harvard-on-digital, series &gt; leadership, course &gt; data-privacy-technology, course &gt; digital-health|||||||
 |page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
-|user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated. For CRP this will be the hashedEmail value when avaliable, if not avaliable pass an empty string value ("")|ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad|||||||
 |user_data.user_type|string|The users current login status, HarvardKey People = Har alumni/staff, Harvard Guest Account = Authenticated User, logged in, Unauthenticated User = Not logged in | HarvardKey, Harvard Guest Account, Unauthenticated User|||||||
 
 
